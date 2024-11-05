@@ -31,7 +31,7 @@ export const FormNavigation = () => {
             className={`
               font-interTight
               disabled:border-0 disabled:bg-white disabled:text-black/50
-              !px-0 !py-0 w-10 h-10
+              !px-0 !py-0 !w-10 !h-10
               flex items-center justify-center
               rounded-full 
               ${key === currentStep ? 'border border-black/25' : 'border-0'}
