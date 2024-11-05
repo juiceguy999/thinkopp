@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-interTight bg-white text-main min-h-screen;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+}
+

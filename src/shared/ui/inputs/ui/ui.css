@@ -1,0 +1,18 @@
+.ui-input__wrapper {
+    @apply relative mb-3.5;
+}
+
+.ui-input {
+    @apply  text-sub font-normal transition-colors
+    border border-main-transparent rounded-md py-4 px-[18px] w-full
+    focus:outline-0 focus:border-main relative;
+}
+
+.ui-input.ui-input_invalid {
+    @apply border-red-invalid;
+}
+
+.ui-input__error {
+    @apply absolute top-4 right-4 text-red-invalid text-sm ;
+
+}
